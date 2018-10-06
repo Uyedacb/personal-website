@@ -1,0 +1,13 @@
+<h3>Brian Uyeda</h3>
+
+<p>Hi, I am an Informatics
+  student at the University of Washington. I love working on projects that push my knowledge.
+  During my free time I enjoy working on independent projects that push my knowledge and
+  as I continue to develop my skills, In the past few years I have developed
+  a skillset that includes: programming experience in Java, experience creating
+  embedded electronics, and web design through this personal website.
+  I hope to use the collective experience I've gained to engineer cost efficient solutions to
+  health issues in developing countries. This website details some of my passion projects
+  and other interests.
+  Feel free to contact me!
+</p>

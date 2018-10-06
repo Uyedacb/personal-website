@@ -1,0 +1,28 @@
+.aboutMe {
+  height : 100%;
+  padding : 40px;
+}
+
+.profilePic {
+  padding : 10%;
+}
+
+.desc {
+  text-align: left;
+  bottom : 50%;
+  max-width: 50%;
+  left : 5%;
+}
+
+.intro {
+  padding: 2px;
+}
+
+#descTitle {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  font-size: 2rem;
+}
