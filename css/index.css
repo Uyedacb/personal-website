@@ -4,13 +4,13 @@
 }
 
 .profilePic {
-  padding : 10%;
+  padding : 2%;
 }
 
 .desc {
   text-align: left;
   bottom : 50%;
-  max-width: 50%;
+  max-width: 100%;
   left : 5%;
 }
 
@@ -19,10 +19,30 @@
 }
 
 #descTitle {
-  margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 500;
   line-height: 1.2;
   color: inherit;
   font-size: 2rem;
+}
+
+.icon {
+  padding-left : 1rem;
+  padding-right: 1rem;
+}
+
+.icon-row {
+  text-align: center;
+
+}
+.nav-custom-brand {
+  font-size: 1.2rem;
+}
+
+.project-preview {
+  width: 80%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 1em 1em;
 }
