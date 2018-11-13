@@ -1,21 +1,27 @@
+* {
+  font-family: 'IBM Plex Sans Condensed', 'IBM Plex Mono', 'IBM Plex Sans',  sans-serif;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display : block;
+  position: relative;
+}
+
+h3 {
+  font-size: 20px;
+}
 .aboutMe {
-  height : 100%;
-  padding : 40px;
+    margin: 3rem auto;
 }
 
-.profilePic {
-  padding : 2%;
-}
-
-.desc {
-  text-align: left;
-  bottom : 50%;
-  max-width: 100%;
-  left : 5%;
-}
-
-.intro {
-  padding: 2px;
+.aboutMe .row {
+  display : flex;
+  align-items: center;
+  text-align: center;
 }
 
 #descTitle {
@@ -27,22 +33,96 @@
 }
 
 .icon {
-  padding-left : 1rem;
-  padding-right: 1rem;
+  padding: 0 1rem;
 }
 
 .icon-row {
-  text-align: center;
-
+  margin-top : 2rem;
 }
 .nav-custom-brand {
   font-size: 1.2rem;
 }
 
-.project-preview {
-  width: 80%;
+.project-bin {
+    margin: 2rem auto;
+}
+
+.project-bin .row {
+    margin: 2rem auto;
+}
+
+.profile-pic {
   height: 100%;
-  display: block;
+  display : none;
   margin: 0 auto;
-  padding: 1em 1em;
+  width: 100%;
+}
+
+.project-desc {
+  display : none;
+}
+
+#piaro-preview .preview-overlay {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#savetime-preview .preview-overlay, #info201-preview .preview-overlay {
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.project-preview img {
+  width: 100%;
+  max-width: 100%;
+  height : auto;
+  transition: .5s ease;
+}
+
+.preview-overlay h2 {
+  font-size: 18px;
+  color : white;
+}
+
+#info201-preview .preview-overlay h2 {
+  color : red;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-pic, .project-desc, .preview-overlay {
+    display : block;
+  }
+
+  a .preview-overlay  {
+    display: block;
+    transition: .5s ease;
+    opacity: 0;
+    text-align: center;
+    top: 50%!important;
+    left: 50%!important;
+    transform: translate(-50%, -50%)!important;
+    -ms-transform: translate(-50%, -50%)!important;
+  }
+
+  .preview-overlay h2{
+    color : black;
+  }
+
+  .project-preview img {
+    opacity : 1;
+  }
+
+  .project-preview:hover .preview-overlay {
+    opacity: 1;
+  }
+
+  .project-preview:hover > img {
+    opacity : 0.2;
+  }
 }
