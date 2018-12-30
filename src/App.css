@@ -203,3 +203,7 @@ h3 {
     opacity : 0.2;
   }
 }
+
+#brand {
+  list-style-type: none;
+}
