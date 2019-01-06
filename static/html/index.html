@@ -13,8 +13,8 @@
     href="img/icons/favicon.png">
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <a class="navbar-brand nav-custom-brand" href="#">Brian Uyeda</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-labels="Toggle navigation"><span class="navbar-toggler-icon"></span>
@@ -25,21 +25,21 @@
               <a class="nav-link active" href="html/software.html">projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="html/contact.html">contact</a>
+              <a class="nav-link" href="files/Uyeda_Resume_SDE.pdf" target="_blank">resume</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
     <section class="container aboutMe jumbotron rounded shadow-lg">
-      <div class="row" aria-label="About me section"> <! box of about me info >
+      <div class="row" aria-label="About me section">
         <div class="col-sm-12 col-md-4 text-center">
           <img src="./img/profile_pic.jpg" alt="picture of Brian Uyeda"
           class="shadow-sm profile-pic rounded">
         </div>
         <div class="col-xs-12 col-sm-12 col-md-8">
           <h1 id="descTitle">Hi, I'm Brian</h1>
-          <p class="caption">I'm an Informatics
+          <p class="desc">I'm a Software Engineer and Informatics
             student working to create sustainable solutions to real world problems.
           </p>
           <div class="icon-row">
@@ -49,6 +49,9 @@
               </a>
               <a href="https://www.linkedin.com/in/uyedacb/" target="_blank">
                 <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="mailto:uyedacb@uw.edu" target="_top">
+                <i class="far fa-envelope"></i>
               </a>
             </div>
           </div>
@@ -61,12 +64,12 @@
           <h2>Piaro.</h2>
           <h3>A worldwide messaging app</h3>
           <p class="caption">
-            Piaro was created by a group of students for Dubhacks:
-            a hackathon brought together by the University of Washington.
-            
+            Piaro is an Android messaging application that allows users to send
+            and recieve messages in their native language. One person might be sending
+            messages in Korean while the other is typing in German.
           </p>
         </div>
-        <a href="http://uyeda.me/Piaro/" class="col-sm-12 col-md-8">
+        <a href="https://uyedacb.github.io/Piaro/" target="_blank" class="col-sm-12 col-md-8">
           <div class="project-preview">
             <img src="./img/piaro-example.PNG" alt="two phones with the Piaro application open">
             <div class="preview-overlay" role="hidden">
@@ -80,10 +83,12 @@
           <h2>SaveTime.</h2>
           <h3>An application that tracks your habits</h3>
           <p class="caption">
-            SaveTime is...
+            Powered through the voice of Alexa, SaveTime allows users to track
+            how they spend their time. It logs the data through AWS and is retrievable
+            by users so that they can analyze where they can make improvements.
           </p>
         </div>
-        <a href="https://devpost.com/software/savetime" class="col-sm-12 col-md-8">
+        <a href="https://devpost.com/software/savetime" target="_blank" class="col-sm-12 col-md-8">
           <div class="project-preview">
             <img src="./img/alexa-echo.jpg" alt="Amazon Alexa Echo with dark background">
             <div class="preview-overlay" role="hidden">
@@ -97,10 +102,12 @@
           <h2>Data Analysis on Mental Health.</h2>
           <h3>Finding contributing factors to Depression.</h3>
           <p class="caption">
-            This data visualization project comprises of...
+            This data visualization project comprises of data taken from the
+            National Survey on Drug Use and Health in 2015 to analyze multiple contributing
+            factors to depression and suicide in the United States.
           </p>
         </div>
-        <a href="https://uyedacb.shinyapps.io/Info201_Final/" class="col-sm-12 col-md-8">
+        <a href="https://uyedacb.shinyapps.io/Info201_Final/" target="_blank" class="col-sm-12 col-md-8">
           <div class="project-preview">
             <img src="./img/data-analysis.jpg" alt="preview of data visualization project">
             <div class="preview-overlay" role="hidden">
