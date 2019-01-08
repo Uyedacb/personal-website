@@ -1,3 +1,16 @@
+* {
+  font-family: 'IBM Plex Sans Condensed', 'IBM Plex Mono', 'IBM Plex Sans',  sans-serif;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display : block;
+  position: relative;
+}
+
 .App {
   text-align: center;
 }
@@ -31,18 +44,6 @@
   }
 }
 
-* {
-  font-family: 'IBM Plex Sans Condensed', 'IBM Plex Mono', 'IBM Plex Sans',  sans-serif;
-  box-sizing: border-box;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  display : block;
-  position: relative;
-}
 
 .icon-row i {
   transform : scale(2.25, 2.25);

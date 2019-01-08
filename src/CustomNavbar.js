@@ -26,7 +26,7 @@ export default class CustomNavbar extends Component {
 
   render() {
     let navbar = (
-    <Navbar fixed="top" className="customNavbar" color="light" expand="md">
+    <Navbar fixed="top" className="customNavbar" color="light" expand="md" sticky={'top'}>
       <NavItem id="brand">
         <NavLink to="/" className="mr-auto navbar-brand nav-custom-brand" >Brian Uyeda</NavLink>
       </NavItem>
