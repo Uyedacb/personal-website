@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { NavLink } from 'react-router-dom';
 
 export default class HomeProjectPage extends Component {
   render() {
@@ -42,14 +43,14 @@ export default class HomeProjectPage extends Component {
                   messages in Korean while the other is typing in German.
                 </p>
               </div>
-              <a href="https://uyedacb.github.io/Piaro/" target="_blank" className="col-sm-12 col-md-8">
+              <NavLink to="/projects/piaro" className="col-sm-12 col-md-8">
                 <div className="project-preview">
-                  <img src="./img/piaro-example.PNG" alt="two phones with the Piaro application open"/>
+                  <img src="./img/piaro-cover.PNG" alt="two phones with the Piaro application open"/>
                   <div className="preview-overlay" role="hidden">
                     <h2>Piaro</h2>
                   </div>
                 </div>
-              </a>
+              </NavLink>
             </div>
             <div className="row" id="savetime-preview">
               <div className="col-sm-hidden col-md-4 project-desc">
@@ -61,14 +62,14 @@ export default class HomeProjectPage extends Component {
                   by users so that they can analyze where they can make improvements.
                 </p>
               </div>
-              <a href="https://devpost.com/software/savetime" target="_blank" className="col-sm-12 col-md-8">
+              <NavLink to="/projects/savetime" className="col-sm-12 col-md-8">
                 <div className="project-preview">
                   <img src="./img/alexa-echo.jpg" alt="Amazon Alexa Echo with dark background"/>
                   <div className="preview-overlay" role="hidden">
                     <h2>SaveTime</h2>
                   </div>
                 </div>
-              </a>
+              </NavLink>
             </div>
             <div className="row" id="info201-preview">
               <div className="col-sm-hidden col-md-4 project-desc">
@@ -80,14 +81,14 @@ export default class HomeProjectPage extends Component {
                   factors to depression and suicide in the United States.
                 </p>
               </div>
-              <a href="https://uyedacb.shinyapps.io/Info201_Final/" target="_blank" className="col-sm-12 col-md-8">
+              <NavLink to="/projects/data-vis-depression" className="col-sm-12 col-md-8">
                 <div className="project-preview">
                   <img src="./img/data-analysis.jpg" alt="preview of data visualization project"/>
                   <div className="preview-overlay" role="hidden">
                     <h2>Mental Health Visualization</h2>
                   </div>
                 </div>
-              </a>
+              </NavLink>
             </div>
           </div>
         </div>
