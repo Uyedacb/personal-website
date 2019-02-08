@@ -17,10 +17,23 @@ export default class ProjectPage extends Component {
     // component is in its own folder?
     let projectPage = (
       <div>
-        <Jumbotron fluid style={jumboStyle}>
-          <Container>
-          </Container>
-        </Jumbotron>
+        <Container>
+          <h1>Piaro</h1>
+          <p>Insert summary intro here</p>
+          <div>
+            <h2>Description</h2>
+            <p>Piaro was a passion project set up by...</p>
+            <h2>Goals</h2>
+            <p>the main goal was to create a way for people across the world talk</p>
+            <h2>Process</h2>
+            <div>
+              <h3>Planning</h3>
+              <p>put planning stuff here</p>
+              <h3>Testing</h3>
+              <p>tested here</p>
+              </div>
+          </div>
+        </Container>
       </div>
     );
     return projectPage;
