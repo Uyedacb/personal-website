@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Jumbotron, Container } from 'reactstrap';
+import { Jumbotron, Container, Table } from 'reactstrap';
 
 export default class ProjectPage extends Component {
 
@@ -8,19 +8,25 @@ export default class ProjectPage extends Component {
   }
 
   render() {
-    let imgUrl = "../img/" + this.props.match.params.projectid + "-cover.PNG"
+    let projectName = this.props.match.params.projectid;
+    let imgUrl = "../img/" + projectName + "-cover.PNG"
     let jumboStyle = {
-      backgroundImage: 'url(' + imgUrl + ')',
-      backgroundSize: "contain",
+      objectFit: "cover",
+      width: "100%",
       height: "100%"
     }
     // component is in its own folder?
     let projectPage = (
       <div>
-        <Jumbotron fluid style={jumboStyle}>
-          <Container>
-          </Container>
-        </Jumbotron>
+        <img src={imgUrl} style={jumboStyle}/>
+        <Container>
+          <Table>
+            <tr>
+              <th>Project:</th>
+              <td>{projectName}</td>
+            </tr>
+          </Table>
+        </Container>
       </div>
     );
     return projectPage;
