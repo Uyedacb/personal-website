@@ -26,20 +26,23 @@ export default class ProjectPage extends Component {
           <Row className="text-center">
             <Col className="text-justify project-page">
               <h1>Piaro</h1>
-              <div className="role-summary">
-                <h3>Role:</h3>
-                <p>Software Developer</p>
-                <h3>Time:</h3>
-                <p>October 2018</p>
-                <h3>Team:</h3>
-                <a href="danielnguyen.me" target="_blank"><p>Daniel Nguyen</p></a>
-                <p>Elias Mendel</p>
-                <p>Insert summary intro here</p>
-                <h3>Tools:</h3>
-              </div>
+              <Row className="role-summary">
+                <Col>
+                  <h3>Role:</h3>
+                  <p>Software Developer</p>
+                  <h3>Time:</h3>
+                  <p>October 2018</p>
+                </Col>
+                <Col>
+                  <h3>Team:</h3>
+                  <p><a href="danielnguyen.me" target="_blank">Daniel Nguyen</a> Elias Mendel</p>
+                  <h3>Tools:</h3>
+                  <p>Android Studio, Google Language API, Firebase</p>
+                </Col>
+              </Row>
               <div>
               <h2>Description</h2>
-              <p>Piaro is translating messaging application</p>
+              <p>Piaro is a translation messaging application</p>
               <h2>Goals</h2>
               <p>the main goal was to create a way for people across the world talk</p>
               <h2>Process</h2>
