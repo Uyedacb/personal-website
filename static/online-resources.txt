@@ -1,0 +1,4 @@
+CSS Resources:
+https://css-tricks.com/introducing-css-scroll-snap-points/
+
+https://stackoverflow.com/questions/9280258/prevent-body-scrolling-but-allow-overlay-scrolling
